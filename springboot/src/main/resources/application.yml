@@ -1,0 +1,17 @@
+server:
+  ip: localhost
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 123456
+    url: jdbc:mysql://localhost:3306/springboot-vue?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
+    username: root
+  servlet:
+    multipart:
+      max-file-size: 5000MB
+      max-request-size: 5000MB
+files:
+  upload:
+    path: E:/ideaWorkspace/springboot-vue-practice/springboot/src/main/resources/files/
+

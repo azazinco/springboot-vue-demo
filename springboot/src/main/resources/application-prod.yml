@@ -1,0 +1,7 @@
+file:
+  ip: 47.113.180.155
+spring:
+  datasource:
+    password: 123456
+    url: jdbc:mysql://47.113.180.155:3306/springboot-vue?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8
+    username: root
