@@ -100,6 +100,7 @@ public class FilesServiceImpl extends ServiceImpl<FilesMapper, Files> implements
         saveFile.setMd5(md5);
         saveFile.setIsDelete(false);
         saveFile.setEnable(true);
+        saveFile.setFlagName(flag);
         filesMapper.insert(saveFile);
 
         return url;

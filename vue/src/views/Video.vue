@@ -1,16 +1,4 @@
 <template>
-  <md-card>
-    <md-card-actions>
-      <div class="md-subhead">
-        <span>Base Config / 基本示例</span>
-      </div>
-      <md-button class="md-icon-button"
-                 target="_blank"
-                 href="https://github.com/surmon-china/vue-video-player/tree/master/examples/01-video.vue">
-        <md-icon>code</md-icon>
-      </md-button>
-    </md-card-actions>
-    <md-card-media>
       <div class="item">
         <div class="player">
           <video-player  class="vjs-custom-skin"
@@ -31,8 +19,6 @@
           </video-player>
         </div>
       </div>
-    </md-card-media>
-  </md-card>
 </template>
 
 <script>
@@ -58,11 +44,11 @@ export default {
         sources: [{
           type: "video/mp4",
           // mp4
-          src: "http://localhost:9090/files/alone/video/play/9154a6b53c4243b7b3845796145c5b14.mp4",
+          src: "http://localhost:9090/getVideo/video/7e1d5bfe756446ecada1eb066affa3f0.mp4",
           // webm
           // src: "https://cdn.theguardian.tv/webM/2015/07/20/150716YesMen_synd_768k_vp8.webm"
         }],
-        poster: "https://surmon-china.github.io/vue-quill-editor/static/images/surmon-1.jpg",
+        poster: "",
       }
     }
   },
@@ -133,3 +119,5 @@ export default {
   }
 }
 </script>
+
+<!--这个页面暂时没用-->
